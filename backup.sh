@@ -21,7 +21,7 @@ echo "  - compton"
 cp -r $HOME/.config/compton config
 
 echo "  - atom"
-cp -r $HOME/.config/atom atom
+cp -r $HOME/.config/atom config
 
 echo "Backup done !"
 echo "Do not forget to commit changes on GitHub :-)"
