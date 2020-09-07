@@ -1,0 +1,214 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/polybar/polybar
+;
+;   The README contains a lot of information
+;
+;==========================================================
+
+[colors]
+background = #222
+background-alt = #444
+foreground = #dfdfdf
+foreground-alt = #888
+primary = #ffb52a
+secondary = #e60053
+alert = #bd2c40
+
+[bar/bottom]
+
+[bar/top]
+monitor = ${env:MONITOR:}
+width = 100%
+height = 2.5%
+radius = 6.0
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+border-size = 0
+line-size = 2
+padding = 1
+module-margin = 1
+
+font-0 = "Noto Sans Mono:size=10;1"
+font-1 = "Noto Sans Mono:size=10;1"
+font-2 = "Noto Sans Symbols:size=10;1"
+font-3 = "Noto Sans Symbols2:size=10;1"
+
+modules-left = date i3 xwindow
+modules-center =
+modules-right = pulseaudio backlight eth1 wlan cpu memory battery powermenu
+
+tray-position = right
+tray-padding = 2
+tray-maxsize = 24
+
+[global/wm]
+margin-top = 0
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:70:...%
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = AC
+
+full-at = 99
+format-charging = %{T3}Charging: <label-charging> %{T-}
+format-discharging = %{T3}Discharging <label-discharging> %{T-}
+format-charging-underline = #43d15d
+format-discharging-underline = #f0ad4e 
+format-full = %{T3}<label-full>
+
+label-charging-font = 3
+label-discharging-font = 3
+label-full =  Charged
+
+[module/backlight]
+type = internal/backlight
+card = intel_backlight
+format = Brightness <label>
+label = %percentage%%
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #d9534f 
+label = CPU:%percentage:2%%
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = "🗍 "
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #0275d8 
+label = %percentage_used:2%%
+
+[module/wlan]
+type = internal/network
+interface = wlp59s0
+interval = 5.0
+
+format-connected = <label-connected>
+format-connected-prefix = "WiFi: "
+format-connected-prefix-foreground = ${colors.foreground-alt}
+format-connected-underline = #0077ff
+label-connected = %essid% %local_ip%
+
+format-disconnected = <label-disconnected>
+format-disconnected-prefix = "✈ "
+label-disconnected = WiFi disconnected
+
+[module/eth1]
+type = internal/network
+interface = enx000ec6c01eef
+interval = 3.0
+
+format-connected-underline = #5cb85c 
+format-connected-prefix = "eth: "
+format-connected-prefix-foreground = ${colors.foreground-alt}
+label-connected = %local_ip%
+
+format-disconnected =
+
+[module/date]
+type = internal/date
+interval = 1
+
+date = "%a %d"
+date-alt = %a %b %d
+
+time = %H:%M
+time-alt = %H:%M:%S
+
+format-prefix =
+format-prefix-foreground = ${colors.foreground}
+format-underline = #0a6cf5
+
+label = %date% %time%
+
+[settings]
+screenchange-reload = true
+
+[module/powermenu]
+type = custom/menu
+
+label-open = ⏽
+label-close = x
+label-separator = |
+
+menu-0-0 = Suspend 
+menu-0-0-exec = i3lock & systemctl suspend
+menu-0-1 = Power Off 
+menu-0-1-exec = poweroff
+menu-0-2 = Reboot 
+menu-0-2-exec = systemctl reboot
+
+[module/pulseaudio]
+type = internal/pulseaudio
+sink = alsa_output.pci-0000_00_1f.3.analog-stereo
+format-volume = Volume <ramp-volume> <label-volume>
+label-volume = %percentage%%
+label-muted = 🔇 muted
+label-muted-foreground = #666
+
+; Only applies if <ramp-volume> is used5
+ramp-volume-0 = 🔉
+ramp-volume-1 = 🔊
+
+
+[module/i3]
+type = internal/i3
+pin-workspaces = true
+
+ws-icon-0 = 1;I
+ws-icon-1 = 2;II
+ws-icon-2 = 3;III
+ws-icon-3 = 4;IV
+ws-icon-4 = 5;V
+ws-icon-5 = 6;VI
+ws-icon-6 = 7;VII
+ws-icon-7 = 8;VII
+ws-icon-8 = 9;IIX
+ws-icon-9 = 10;IX
+ws-icon-default = ♟
+
+format = <label-state> <label-mode>
+
+label-mode = %mode%
+label-mode-background = #e60053
+
+label-focused = %index%
+label-focused-foreground = #ffffff
+label-focused-underline = #fba922
+label-focused-padding = 2 
+
+label-unfocused = %index%
+label-unfocused-padding = 2
+
+label-visible = %index%
+label-visible-underline = #555555
+label-visible-padding = 2
+
+label-urgent = %index%
+label-urgent-foreground = #ffffff
+label-urgent-background = #bd2c40
+label-urgent-padding = 2
+
+label-separator = |
+label-separator-foreground = #ffb52a
