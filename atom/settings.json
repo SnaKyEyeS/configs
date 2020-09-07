@@ -1,0 +1,34 @@
+{
+	"*": {
+		"core": {
+			"disabledPackages": [
+				"vim-mode-plus"
+			],
+			"telemetryConsent": "no",
+			"themes": [
+				"one-dark-ui",
+				"nord-atom-syntax"
+			]
+		},
+		"editor": {
+			"fontSize": 12
+		},
+		"exception-reporting": {
+			"userId": "55a6be76-5f75-45c2-8887-579b7cb94260"
+		},
+		"nord-atom-ui": {
+			"darkerFormFocusEffect": true,
+			"tabSizing": false
+		},
+		"sync-settings": {
+			"installLatestVersion": true,
+			"useOtherLocation": true
+		},
+		"sync-settings-folder-location": {
+			"folderPath": "/home/jyl/.config/atom"
+		},
+		"welcome": {
+			"showOnStartup": false
+		}
+	}
+}

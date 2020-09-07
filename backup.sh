@@ -20,6 +20,9 @@ cp -r $HOME/.config/rofi config
 echo "  - compton"
 cp -r $HOME/.config/compton config
 
+echo "  - atom"
+cp -r $HOME/.config/atom atom
+
 echo "Backup done !"
 echo "Do not forget to commit changes on GitHub :-)"
 
