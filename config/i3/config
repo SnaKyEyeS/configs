@@ -11,6 +11,7 @@ font pango: FireCode 8.5
 exec --no-startup-id nitrogen --head=1 --restore
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
+exec --no-startup-id compton --config=$HOME/.config/compton/config -b
 
 exec_always --no-startup-id flameshot
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -139,7 +140,7 @@ bindsym $mod+r mode "resize"
 
 # i3-gaps
 for_window [class=".*"] border pixel 0
-smart_gaps on
+#smart_gaps on
 gaps inner 10
 
 # Switch monitor for current workspace

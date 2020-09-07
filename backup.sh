@@ -17,6 +17,9 @@ cp -r $HOME/.config/ranger config
 echo "  - rofi"
 cp -r $HOME/.config/rofi config
 
+echo "  - compton"
+cp -r $HOME/.config/compton config
+
 echo "Backup done !"
 echo "Do not forget to commit changes on GitHub :-)"
 
