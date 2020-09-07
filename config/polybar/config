@@ -226,10 +226,10 @@ ping-interval = 10
 
 format-connected = <ramp-signal> <label-connected>
 label-connected = %essid%
-label-connected-underline = ${color.success}
+#label-connected-underline = ${color.success}
 label-disconnected =    not connected
 label-disconnected-foreground = #66
-label-disconnected-underline = ${color.danger}
+#label-disconnected-underline = ${color.danger}
 
 ramp-signal-0 = 
 ramp-signal-1 = 
@@ -249,9 +249,9 @@ interface = enx000ec6c01eef
 interval = 3.0
 
 label-connected =    %{T3}%local_ip%%{T-}
-label-connected-underline = ${color.success}
+#label-connected-underline = ${color.success}
 label-disconnected-foreground = #66
-label-disconnected-underline = ${color.danger}
+#label-disconnected-underline = ${color.danger}
 
 [module/pulseaudio]
 type = internal/pulseaudio
