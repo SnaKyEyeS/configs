@@ -21,6 +21,7 @@
 			"tabSizing": false
 		},
 		"sync-settings": {
+			"hiddenSettings": {},
 			"installLatestVersion": true,
 			"useOtherLocation": true
 		},
