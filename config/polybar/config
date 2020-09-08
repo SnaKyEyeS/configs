@@ -1,9 +1,11 @@
 [color]
-danger = #d9534f
-warning = #f0ad4e
-success = #5cb85c
-info = #0275d8
-black = #ffffff
+danger = #bf616a
+warning-2 = #d08770
+warning-1 = #ebcb8b
+success = #a3be8c
+info = #5e81ac
+dark = #2e3440
+light = #eceff4
 
 [bar/top]
 monitor = ${env:MONITOR:}
@@ -11,7 +13,7 @@ width = 100%
 height = 30
 
 background = #00000000
-foreground = #c0ffffff
+foreground = #c0eceff4
 
 line-color = ${bar/bottom.background}
 line-size = 2
@@ -71,7 +73,7 @@ bar-indicator-font = 3
 bar-indicator-foreground = #ff
 bar-fill = ─
 bar-fill-font = 3
-bar-fill-foreground = #c9665e
+bar-fill-foreground = ${color.success}
 bar-empty = ─
 bar-empty-font = 3
 bar-empty-foreground = #44
@@ -81,27 +83,19 @@ type = internal/battery
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
-#format-charging-underline = #43d15d
-
 format-discharging = <ramp-capacity> <label-discharging>
 format-full = <ramp-capacity> <label-full>
 
 ramp-capacity-0 = 
-ramp-capacity-0-foreground = #f53c3c
+ramp-capacity-0-foreground = ${color.danger}
 ramp-capacity-1 = 
-ramp-capacity-1-foreground = #ffa900
+ramp-capacity-1-foreground = ${color.warning-2}
 ramp-capacity-2 = 
+ramp-capacity-2-foreground = ${color.warning-1}
 ramp-capacity-3 = 
+ramp-capacity-3-foreground = ${color.success}
 ramp-capacity-4 = 
-
-bar-capacity-width = 10
-bar-capacity-format = %{+u}%{+o}%fill%%empty%%{-u}%{-o}
-bar-capacity-fill = █
-bar-capacity-fill-foreground = #ddffffff
-bar-capacity-fill-font = 3
-bar-capacity-empty = █
-bar-capacity-empty-font = 3
-bar-capacity-empty-foreground = #44ffffff
+ramp-capacity-4-foreground = ${color.success}
 
 animation-charging-0 = 
 animation-charging-1 = 
@@ -114,42 +108,42 @@ animation-charging-framerate = 750
 type = internal/i3
 pin-workspaces = true
 
-ws-icon-0 = 1;I
-ws-icon-1 = 2;II
-ws-icon-2 = 3;III
-ws-icon-3 = 4;IV
-ws-icon-4 = 5;V
-ws-icon-5 = 6;VI
-ws-icon-6 = 7;VII
-ws-icon-7 = 8;VII
-ws-icon-8 = 9;IIX
-ws-icon-9 = 10;IX
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;3
+ws-icon-3 = 4;4
+ws-icon-4 = 5;5
+ws-icon-5 = 6;6
+ws-icon-6 = 7;7
+ws-icon-7 = 8;8
+ws-icon-8 = 9;9
+ws-icon-9 = 10;10
 ws-icon-default = ♟
 
 format = <label-state> <label-mode>
 
-label-mode = %mode%
+label-mode = %icon%
 label-mode-background = #e60053
 
-label-focused = %index%
-label-focused-foreground = ${color.black}
-label-focused-underline = ${color.warning}
+label-focused = %icon%
+label-focused-foreground = ${color.warning-2}
+label-focused-underline = ${color.warning-2}
 label-focused-padding = 2
 
-label-unfocused = %index%
+label-unfocused = %icon%
 label-unfocused-padding = 2
 
-label-visible = %index%
-label-visible-underline = #555555
+label-visible = %icon%
+label-visible-underline = ${color.warning-2}
 label-visible-padding = 2
 
-label-urgent = %index%
-label-urgent-foreground = ${color.black}
+label-urgent = %icon%
+label-urgent-foreground = ${color.dark}
 label-urgent-background = ${color.danger}
 label-urgent-padding = 2
 
 label-separator = |
-label-separator-foreground = ${color.warning}
+label-separator-foreground = ${color.warning-2}
 
 [module/cpu]
 type = internal/cpu
@@ -159,45 +153,45 @@ label = CPU
 
 ramp-coreload-0 = ▁
 ramp-coreload-0-font = 2
-ramp-coreload-0-foreground = #aaff77
+ramp-coreload-0-foreground = ${color.success}
 ramp-coreload-1 = ▂
 ramp-coreload-1-font = 2
-ramp-coreload-1-foreground = #aaff77
+ramp-coreload-1-foreground = ${color.success}
 ramp-coreload-2 = ▃
 ramp-coreload-2-font = 2
-ramp-coreload-2-foreground = #aaff77
+ramp-coreload-2-foreground = ${color.success}
 ramp-coreload-3 = ▄
 ramp-coreload-3-font = 2
-ramp-coreload-3-foreground = #aaff77
+ramp-coreload-3-foreground = ${color.warning-1}
 ramp-coreload-4 = ▅
 ramp-coreload-4-font = 2
-ramp-coreload-4-foreground = #fba922
+ramp-coreload-4-foreground = ${color.warning-1}
 ramp-coreload-5 = ▆
 ramp-coreload-5-font = 2
-ramp-coreload-5-foreground = #fba922
+ramp-coreload-5-foreground = ${color.warning-1}
 ramp-coreload-6 = ▇
 ramp-coreload-6-font = 2
-ramp-coreload-6-foreground = #ff5555
+ramp-coreload-6-foreground = ${color.warning-2}
 ramp-coreload-7 = █
 ramp-coreload-7-font = 2
-ramp-coreload-7-foreground = #ff5555
+ramp-coreload-7-foreground = ${color.warning-2}
 ramp-coreload-8 = █
 ramp-coreload-8-font = 2
-ramp-coreload-8-foreground = #ff5555
+ramp-coreload-8-foreground = ${color.warning-2}
 ramp-coreload-9 = █
 ramp-coreload-9-font = 2
-ramp-coreload-9-foreground = #ff5555
+ramp-coreload-9-foreground = ${color.danger}
 ramp-coreload-10 = █
 ramp-coreload-10-font = 2
-ramp-coreload-10-foreground = #ff5555
+ramp-coreload-10-foreground = ${color.danger}
 ramp-coreload-11 = █
 ramp-coreload-11-font = 2
-ramp-coreload-11-foreground = #ff5555
+ramp-coreload-11-foreground = ${color.danger}
 
 [module/date]
 type = internal/date
-date =    %%{F#99}%Y-%m-%d%%{F-}  %%{F#fff}%H:%M%%{F-}
-date-alt = %%{F#fff}%A, %d %B %Y  %%{F#fff}%H:%M%%{F#666}:%%{F#fba922}%S%%{F-}
+date =    %%{F#99}%a %d/%m/%Y%%{F-}  %%{F#fff}%H:%M%%{F-}
+date-alt = %%{F#fff}%A, %d %B %Y  %%{F#fff}%H:%M%%{F#666}:%%{F#ebcb8b}%S%%{F-}
 
 [module/memory]
 type = internal/memory
@@ -205,10 +199,10 @@ format = <label> <bar-used>
 label = RAM
 
 bar-used-width = 20
-bar-used-foreground-0 = #aaff77
-bar-used-foreground-1 = #aaff77
-bar-used-foreground-2 = #fba922
-bar-used-foreground-3 = #ff5555
+bar-used-foreground-0 = ${color.success}
+bar-used-foreground-1 = ${color.success}
+bar-used-foreground-2 = ${color.warning-1}
+bar-used-foreground-3 = ${color.danger}
 bar-used-indicator = |
 bar-used-indicator-font = 6
 bar-used-indicator-foreground = #ff
@@ -226,10 +220,8 @@ ping-interval = 10
 
 format-connected = <ramp-signal> <label-connected>
 label-connected = %essid%
-#label-connected-underline = ${color.success}
 label-disconnected =    not connected
 label-disconnected-foreground = #66
-#label-disconnected-underline = ${color.danger}
 
 ramp-signal-0 = 
 ramp-signal-1 = 
@@ -249,9 +241,7 @@ interface = enx000ec6c01eef
 interval = 3.0
 
 label-connected =    %{T3}%local_ip%%{T-}
-#label-connected-underline = ${color.success}
 label-disconnected-foreground = #66
-#label-disconnected-underline = ${color.danger}
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -270,14 +260,15 @@ ramp-volume-3 = 
 type = custom/menu
 
 label-open = 
+label-open-foreground = ${color.danger}
 label-close = 
 
 menu-0-0 = "Logout  "
-menu-0-0-foreground = ${color.warning}
+menu-0-0-foreground = ${color.warning-1}
 menu-0-0-exec = i3-msg exit
 
 menu-0-1 = "Reboot  "
-menu-0-1-foreground = ${color.danger}
+menu-0-1-foreground = ${color.warning-2}
 menu-0-1-exec = reboot
 
 menu-0-2 = Shutdown
@@ -288,5 +279,3 @@ menu-0-2-exec = poweroff
 type = internal/date
 interval = 2
 date = %%{F#999}%Y-%m-%d%%{F-}  %%{F#fff}%H:%M%%{F-}
-
-; vim:ft=dosini

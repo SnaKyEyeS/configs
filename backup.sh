@@ -25,5 +25,3 @@ cp -r $HOME/.config/atom config
 
 echo "Backup done !"
 echo "Do not forget to commit changes on GitHub :-)"
-
-num=$(($(cat /sys/class/backlight/intel_backlight/brightness) + 1000))
