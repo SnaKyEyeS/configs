@@ -1,7 +1,8 @@
 #!/bin/bash
 
-echo "Clean old config files..."
+echo "Clean old bakcup files..."
 rm -rf config/*
+rm -rf apt/*
 
 echo "Initializing backup..."
 
@@ -22,6 +23,9 @@ cp -r $HOME/.config/compton config
 
 echo "  - atom"
 cp -r $HOME/.config/atom config
+
+echo "  - apt"
+grep "apt install" $HOME/.zsh_history > apt/history
 
 echo "Backup done !"
 echo "Do not forget to commit changes on GitHub :-)"
