@@ -2,24 +2,18 @@
 : 1599416180:0;sudo apt install doxygen-lib
 : 1599416188:0;sudo apt install doxygen
 : 1599422746:0;sudo apt install xclip
-: 1599428473:0;sudo apt install i3-gaps
 : 1599428738:0;sudo apt install i3-gaps
 : 1599428906:0;sudo apt install ranger
 : 1599465349:0;sudo apt install gnome-shell-extensions
 : 1599467151:0;sudo apt install polybar
 : 1599469463:0;sudo apt install polybar
-: 1599471094:0;sudo apt install nitrogen
-: 1599472876:0;sudo apt install ifconfig 
 : 1599472898:0;sudo apt install net-tools
-: 1599473399:0;sudo apt install flameshot
 : 1599474219:0;sudo apt install feh
 : 1599475425:0;sudo apt install unifont
 : 1599475891:0;sudo apt install unifont
 : 1599476081:0;sudo apt install fonts-font-awesome
 : 1599476620:0;sudo apt install xfonts-base
 : 1599477318:0;sudo apt install fonts-material-design-icons-iconfont
-: 1599478349:0;sudo apt install fonts-terminus
-: 1599480967:0;sudo apt install xbacklight alsa-utils pulseaudio
 : 1599482401:0;sudo apt install light
 : 1599482512:0;sudo apt install xbacklight
 : 1599485911:0;sudo apt install rofi
@@ -38,16 +32,14 @@
 : 1599560264:0;sudo apt install python3-pip
 : 1599560573:0;sudo apt install xorg
 : 1599560581:0;sudo apt install openbox
-: 1599565050:0;sudo apt install chrome
-: 1599566127:0;sudo apt install torbrowser-launcher
-: 1599566313:0;sudo apt install tor
 : 1599568103:0;sudo apt install teams 
 : 1599568506:0;sudo apt install grub-customizer
-: 1599568990:0;sudo apt install caca-utils
 : 1599569291:0;sudo apt install catimg
-: 1599639208:0;sudo apt install ./google-chrome-stable_current_amd64.deb
 : 1599653475:0;sudo apt install xf86-input-synaptics
-: 1599654548:0;sudo apt install
-: 1599654553:0;sudo apt install redis
 : 1599656678:0;sudo apt install libavcodec-extra
 : 1599657747:0;sudo apt install mariannmt
+: 1599732708:0;sudo apt install wmctrl
+: 1599854743:0;sudo apt install wine64
+: 1599900288:0;sudo apt install screenfetch
+: 1599903090:0;sudo apt install tmux
+: 1599911144:0;sudo apt install peek

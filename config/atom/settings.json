@@ -1,14 +1,7 @@
 {
 	"*": {
 		"core": {
-			"disabledPackages": [
-				"vim-mode-plus"
-			],
-			"telemetryConsent": "no",
-			"themes": [
-				"one-dark-ui",
-				"nord-atom-syntax"
-			]
+			"telemetryConsent": "no"
 		},
 		"editor": {
 			"fontSize": 12
@@ -21,6 +14,7 @@
 			"tabSizing": false
 		},
 		"sync-settings": {
+			"checkForUpdatedBackup": false,
 			"hiddenSettings": {},
 			"installLatestVersion": true,
 			"useOtherLocation": true

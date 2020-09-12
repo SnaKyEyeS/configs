@@ -16,6 +16,7 @@ exec --no-startup-id compton --config=$HOME/.config/compton/config -b
 exec_always --no-startup-id flameshot
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id feh --bg-scale $HOME/.config/i3/background/img1.jpg
+#exec_always --no-startup-id WeatherDesk -t 4 &
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -150,6 +151,6 @@ bindsym $mod+m move workspace to output right
 bindsym Print exec flameshot gui
 
 # Rofi Rofi
-bindsym $mod+d exec --no-startup-id rofi -show run
+bindsym $mod+d exec --no-startup-id rofi -show drun
 bindsym Mod1+Tab exec --no-startup-id rofi -show window		
 bindsym Mod1+Shift+Tab exec --no-startup-id rofi -show ssh

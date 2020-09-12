@@ -12,7 +12,7 @@ monitor = ${env:MONITOR:}
 width = 100%
 height = 30
 
-background = #00000000
+background = #002e3440
 foreground = #c0eceff4
 
 line-color = ${bar/bottom.background}
@@ -103,6 +103,7 @@ animation-charging-2 = 
 animation-charging-3 = 
 animation-charging-4 = 
 animation-charging-framerate = 750
+animation-charging-foreground = ${color.success}
 
 [module/i3]
 type = internal/i3
