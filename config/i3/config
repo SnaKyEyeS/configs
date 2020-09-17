@@ -141,7 +141,6 @@ bindsym $mod+r mode "resize"
 
 # i3-gaps
 for_window [class=".*"] border pixel 0
-#smart_gaps on
 gaps inner 10
 
 # Switch monitor for current workspace
@@ -154,3 +153,6 @@ bindsym Print exec flameshot gui
 bindsym $mod+d exec --no-startup-id rofi -show drun
 bindsym Mod1+Tab exec --no-startup-id rofi -show window		
 bindsym Mod1+Shift+Tab exec --no-startup-id rofi -show ssh
+
+# Custom window modes
+for_window [title="Microsoft Teams Notification"] floating enable

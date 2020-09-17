@@ -1,10 +1,14 @@
 {
 	"*": {
 		"core": {
+			"disabledPackages": [
+				"vim-mode-plus"
+			],
 			"telemetryConsent": "no"
 		},
 		"editor": {
-			"fontSize": 12
+			"fontSize": 12,
+			"tabLength": 4
 		},
 		"exception-reporting": {
 			"userId": "55a6be76-5f75-45c2-8887-579b7cb94260"
