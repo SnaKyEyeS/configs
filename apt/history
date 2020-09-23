@@ -43,3 +43,21 @@
 : 1599900288:0;sudo apt install screenfetch
 : 1599903090:0;sudo apt install tmux
 : 1599911144:0;sudo apt install peek
+: 1600374032:0;sudo apt install libavcodec58
+: 1600374080:0;sudo apt install ffmpeg
+: 1600374111:0;sudo apt install libav-tools
+: 1600374157:0;sudo apt install ubuntu-restricted-extras
+: 1600374234:0;sudo apt install libavcodec58
+: 1600374246:0;sudo apt install ffmpeg
+: 1600510848:0;sudo apt install wine32
+: 1600719334:0;sudo apt install zsh
+: 1599408335:0;sudo apt-get install -y cuda
+: 1599408427:0;sudo apt-get install -y cuda
+: 1599412867:0;sudo apt-get install cuda
+: 1599412880:0;sudo apt-get install cuda
+: 1599416145:0;sudo apt-get install libatlas-base-dev
+: 1599419924:0;sudo apt-get install intel-mkl-64bit-2020.0-088
+: 1599475476:0;sudo apt-get install x11-utils
+: 1599774558:0;sudo DEBIAN_PRIORITY=low apt-get install postfix
+: 1600075582:0;sudo apt-get install sshuttle
+: 1600373810:0;sudo apt-get install libavcodec58 libav-tools ffmpeg\

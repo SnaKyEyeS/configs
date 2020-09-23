@@ -16,6 +16,7 @@ exec --no-startup-id compton --config=$HOME/.config/compton/config -b
 exec_always --no-startup-id flameshot
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id feh --bg-scale $HOME/.config/i3/background/img1.jpg
+exec_always --no-startup-id $HOME/.config/i3/scripts/autoname_workspaces.py &
 #exec_always --no-startup-id WeatherDesk -t 4 &
 
 # Use pactl to adjust volume in PulseAudio.

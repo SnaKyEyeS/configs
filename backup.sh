@@ -26,6 +26,7 @@ cp -r $HOME/.config/atom config
 
 echo "  - apt"
 grep "apt install" $HOME/.zsh_history > apt/history
+grep "apt-get install" $HOME/.zsh_history >> apt/history
 
 echo "Backup done !"
 echo "Do not forget to commit changes on GitHub :-)"

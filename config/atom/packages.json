@@ -260,6 +260,9 @@
 	"package-generator": {
 		"version": "1.3.0"
 	},
+	"pigments": {
+		"version": "0.40.2"
+	},
 	"remember-folds": {
 		"version": "0.3.0"
 	},
