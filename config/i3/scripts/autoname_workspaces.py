@@ -50,7 +50,7 @@ from util import *
 # then click on the application you want to inspect.
 WINDOW_ICONS = {
     'alacritty': fa.icons['terminal'],
-    'atom': fa.icons['code-branch'],
+    'atom': fa.icons['file-code'],
     'banshee': fa.icons['play'],
     'blender': fa.icons['cube'],
     'chromium': fa.icons['chrome'],
@@ -109,16 +109,12 @@ WINDOW_ICONS = {
     'yelp': fa.icons['code'],
     'zenity': fa.icons['window-maximize'],
     'zoom': fa.icons['comment'],
-    'microsoft teams - preview': fa.icons['tv'],
+    'microsoft teams - preview': fa.icons['users'],
+    'Popcorn-Time': fa.icons['film'],
 }
 
 # This icon is used for any application not in the list above
 DEFAULT_ICON = '*'
-
-# Global setting that determines whether workspaces will be automatically
-# re-numbered in ascending order with a "gap" left on each monitor. This is
-# overridden via command-line flag.
-RENUMBER_WORKSPACES = True
 
 
 def ensure_window_icons_lowercase():
@@ -152,17 +148,7 @@ def rename_workspaces(i3, icon_list_format='default'):
         name_parts = parse_workspace_name(workspace.name)
         icon_list = [icon_for_window(w) for w in workspace.leaves()]
         new_icons = format_icon_list(icon_list, icon_list_format)
-
-        # As we enumerate, leave one gap in workspace numbers between each monitor.
-        # This leaves a space to insert a new one later.
-        if ws_info.output != prev_output and prev_output != None:
-            n += 1
-        prev_output = ws_info.output
-
-        # optionally renumber workspace
-        new_num = n if RENUMBER_WORKSPACES else name_parts.num
-        n += 1
-
+        new_num = name_parts.num
         new_name = construct_workspace_name(
             NameParts(
                 num=new_num, shortname=name_parts.shortname, icons=new_icons))
@@ -193,13 +179,6 @@ if __name__ == '__main__':
         description=
         "Rename workspaces dynamically to show icons for running programs.")
     parser.add_argument(
-        '--norenumber_workspaces',
-        action='store_true',
-        default=False,
-        help=
-        "Disable automatic workspace re-numbering. By default, workspaces are automatically re-numbered in ascending order."
-    )
-    parser.add_argument(
         '--icon_list_format',
         type=str,
         default='default',
@@ -211,8 +190,6 @@ if __name__ == '__main__':
         "    - chemist: factorize with subscripts (e.g. aababa -> a₄b₂)."
     )
     args = parser.parse_args()
-
-    RENUMBER_WORKSPACES = not args.norenumber_workspaces
 
     logging.basicConfig(level=logging.INFO)
 
