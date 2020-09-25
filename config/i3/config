@@ -45,13 +45,7 @@ bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
-# move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+M move right
-
-# alternatively, you can use the cursor keys:
+# Move focused window
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -144,16 +138,16 @@ bindsym $mod+r mode "resize"
 for_window [class=".*"] border pixel 0
 gaps inner 10
 
-# Switch monitor for current workspace
-bindsym $mod+m move workspace to output right
-
 # Flameshot
 bindsym Print exec flameshot gui
 
-# Rofi Rofi
+# Rofi
 bindsym $mod+d exec --no-startup-id rofi -show drun
 bindsym Mod1+Tab exec --no-startup-id rofi -show window		
 bindsym Mod1+Shift+Tab exec --no-startup-id rofi -show ssh
+
+bindsym $mod+m move workspace to output right
+bindsym $mod+Shift+m exec $HOME/.config/rofi/scripts/rand.sh
 
 # Custom window modes
 for_window [title="Microsoft Teams Notification"] floating enable

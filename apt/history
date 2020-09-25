@@ -51,6 +51,10 @@
 : 1600374246:0;sudo apt install ffmpeg
 : 1600510848:0;sudo apt install wine32
 : 1600719334:0;sudo apt install zsh
+: 1601028071:0;sudo apt install font-manager
+: 1601028281:0;sudo apt install fonts-noto-cjk
+: 1601028285:0;sudo apt install fonts-noto
+: 1601028306:0;sudo apt install fonts-noto-cjk-extra
 : 1599408335:0;sudo apt-get install -y cuda
 : 1599408427:0;sudo apt-get install -y cuda
 : 1599412867:0;sudo apt-get install cuda
