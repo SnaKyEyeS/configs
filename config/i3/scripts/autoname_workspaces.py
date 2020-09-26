@@ -50,7 +50,7 @@ from util import *
 # then click on the application you want to inspect.
 WINDOW_ICONS = {
     'alacritty': fa.icons['terminal'],
-    'atom': u'\u269B',
+    'atom': u'\u269b',
     'banshee': fa.icons['play'],
     'blender': fa.icons['cube'],
     'chromium': fa.icons['chrome'],
@@ -111,6 +111,7 @@ WINDOW_ICONS = {
     'zoom': fa.icons['comment'],
     'microsoft teams - preview': fa.icons['users'],
     'Popcorn-Time': fa.icons['film'],
+    'MATLAB R2018b': fa.icons['calculator'],
 }
 
 # This icon is used for any application not in the list above

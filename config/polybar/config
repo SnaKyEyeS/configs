@@ -1,3 +1,6 @@
+[settings]
+screenchange-reload = true
+
 [color]
 danger = #bf616a
 warning-2 = #d08770
@@ -224,21 +227,25 @@ label-open = 
 label-open-foreground = ${color.danger}
 label-close = 
 
-menu-0-0 = "Logout  "
-menu-0-0-foreground = ${color.info}
-menu-0-0-exec = i3-msg exit
+menu-0-0 = "Lock "
+;menu-0-0-foreground = ${color.info}
+menu-0-0-exec = $HOME/.config/i3/scripts/lock.sh
 
-menu-0-1 = "Sleep "
-menu-0-1-foreground = ${color.success}
-menu-0-1-exec = systemctl suspend
+menu-0-1 = "Logout  "
+menu-0-1-foreground = ${color.info}
+menu-0-1-exec = i3-msg exit
 
-menu-0-2 = "Reboot  "
-menu-0-2-foreground = ${color.warning-2}
-menu-0-2-exec = reboot
+menu-0-2 = "Sleep "
+menu-0-2-foreground = ${color.success}
+menu-0-2-exec = systemctl suspend
 
-menu-0-3 = Shutdown
-menu-0-3-foreground = ${color.danger}
-menu-0-3-exec = poweroff
+menu-0-3 = "Reboot  "
+menu-0-3-foreground = ${color.warning-2}
+menu-0-3-exec = reboot
+
+menu-0-4 = Shutdown
+menu-0-4-foreground = ${color.danger}
+menu-0-4-exec = poweroff
 
 [module/clock]
 type = internal/date

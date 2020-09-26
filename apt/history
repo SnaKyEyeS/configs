@@ -55,6 +55,8 @@
 : 1601028281:0;sudo apt install fonts-noto-cjk
 : 1601028285:0;sudo apt install fonts-noto
 : 1601028306:0;sudo apt install fonts-noto-cjk-extra
+: 1601110647:0;sudo apt install latex-full
+: 1601110721:0;sudo apt install texlive-full
 : 1599408335:0;sudo apt-get install -y cuda
 : 1599408427:0;sudo apt-get install -y cuda
 : 1599412867:0;sudo apt-get install cuda
