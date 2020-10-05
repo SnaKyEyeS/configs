@@ -57,6 +57,11 @@
 : 1601028306:0;sudo apt install fonts-noto-cjk-extra
 : 1601110647:0;sudo apt install latex-full
 : 1601110721:0;sudo apt install texlive-full
+: 1601201514:0;sudo apt install libpq-dev
+: 1601204199:0;sudo apt install python3 sphinx
+: 1601204206:0;sudo apt install python3-sphinx
+: 1601888144:0;sudo apt install libxrandr
+: 1601888159:0;sudo apt install xorg-dev libglu1-mesa-dev
 : 1599408335:0;sudo apt-get install -y cuda
 : 1599408427:0;sudo apt-get install -y cuda
 : 1599412867:0;sudo apt-get install cuda
@@ -68,3 +73,4 @@
 : 1600075582:0;sudo apt-get install sshuttle
 : 1600373810:0;sudo apt-get install libavcodec58 libav-tools ffmpeg\
 : 1600897669:0;sudo apt-get install fonts-font-awesome
+: 1601817923:0;sudo apt-get install python3-tk
