@@ -62,6 +62,14 @@
 : 1601204206:0;sudo apt install python3-sphinx
 : 1601888144:0;sudo apt install libxrandr
 : 1601888159:0;sudo apt install xorg-dev libglu1-mesa-dev
+: 1601895951:0;sudo apt install haskell-cipher-blowfish
+: 1601895965:0;sudo apt install libcrypt-blowfish-perl
+: 1602108195:0;sudo apt install openssh-server
+: 1602109935:0;sudo apt install xz-utils
+: 1602319128:0;sudo apt install postgresql
+: 1603873479:0;apt install apt-transport-https
+: 1603873483:3;sudo apt install apt-transport-https
+: 1603873555:8;sudo apt install openvpn3
 : 1599408335:0;sudo apt-get install -y cuda
 : 1599408427:0;sudo apt-get install -y cuda
 : 1599412867:0;sudo apt-get install cuda
@@ -74,3 +82,5 @@
 : 1600373810:0;sudo apt-get install libavcodec58 libav-tools ffmpeg\
 : 1600897669:0;sudo apt-get install fonts-font-awesome
 : 1601817923:0;sudo apt-get install python3-tk
+: 1602340182:0;sudo apt-get install \\
+: 1602340251:0;sudo apt-get install docker-ce docker-ce-cli containerd.io\

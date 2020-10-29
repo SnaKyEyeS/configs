@@ -19,6 +19,11 @@ exec_always --no-startup-id feh --bg-scale $HOME/.config/i3/img/background.jpg
 exec_always --no-startup-id $HOME/.config/i3/scripts/autoname_workspaces.py &
 #exec_always --no-startup-id WeatherDesk -t 4 &
 
+# Enable tap to click 
+# Find device ID with xinput list
+# Find property ID with xpinput list-props <device ID>
+exec xinput set-prop 13 328 1
+
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
