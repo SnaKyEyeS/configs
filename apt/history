@@ -5,11 +5,9 @@
 : 1599428738:0;sudo apt install i3-gaps
 : 1599428906:0;sudo apt install ranger
 : 1599465349:0;sudo apt install gnome-shell-extensions
-: 1599467151:0;sudo apt install polybar
 : 1599469463:0;sudo apt install polybar
 : 1599472898:0;sudo apt install net-tools
 : 1599474219:0;sudo apt install feh
-: 1599475425:0;sudo apt install unifont
 : 1599475891:0;sudo apt install unifont
 : 1599476081:0;sudo apt install fonts-font-awesome
 : 1599476620:0;sudo apt install xfonts-base
@@ -43,8 +41,6 @@
 : 1599900288:0;sudo apt install screenfetch
 : 1599903090:0;sudo apt install tmux
 : 1599911144:0;sudo apt install peek
-: 1600374032:0;sudo apt install libavcodec58
-: 1600374080:0;sudo apt install ffmpeg
 : 1600374111:0;sudo apt install libav-tools
 : 1600374157:0;sudo apt install ubuntu-restricted-extras
 : 1600374234:0;sudo apt install libavcodec58
@@ -70,9 +66,15 @@
 : 1603873479:0;apt install apt-transport-https
 : 1603873483:3;sudo apt install apt-transport-https
 : 1603873555:8;sudo apt install openvpn3
-: 1599408335:0;sudo apt-get install -y cuda
+: 1606810108:0;sudo apt install valgrind
+: 1606817672:0;sudo apt install linux-tools-generic
+: 1606817718:0;sudo apt install linux-tools-5.4.0-53-generic
+: 1608111292:0;sudo apt install atom
+: 1608476976:0;sudo apt install inkscape
+: 1608482971:0;sudo apt install python3-venv
+: 1609873380:0;sudo apt install xcalib
+: 1609873570:0;sudo apt install xcalib
 : 1599408427:0;sudo apt-get install -y cuda
-: 1599412867:0;sudo apt-get install cuda
 : 1599412880:0;sudo apt-get install cuda
 : 1599416145:0;sudo apt-get install libatlas-base-dev
 : 1599419924:0;sudo apt-get install intel-mkl-64bit-2020.0-088
@@ -84,3 +86,6 @@
 : 1601817923:0;sudo apt-get install python3-tk
 : 1602340182:0;sudo apt-get install \\
 : 1602340251:0;sudo apt-get install docker-ce docker-ce-cli containerd.io\
+: 1606845309:0;sudo apt-get install swig
+: 1606845531:0;sudo apt-get install build-essential swig
+: 1609868537:0;sudo apt-get install -f

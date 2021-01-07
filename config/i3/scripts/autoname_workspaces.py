@@ -112,6 +112,7 @@ WINDOW_ICONS = {
     'microsoft teams - preview': fa.icons['users'],
     'Popcorn-Time': fa.icons['film'],
     'MATLAB R2018b': fa.icons['calculator'],
+    'Caprine': fa.icons['comments'],
 }
 
 # This icon is used for any application not in the list above

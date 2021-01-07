@@ -84,13 +84,16 @@
 		"version": "0.43.1"
 	},
 	"find-and-replace": {
-		"version": "0.219.3"
+		"version": "0.219.5"
 	},
 	"fuzzy-finder": {
 		"version": "1.14.2"
 	},
 	"git-diff": {
 		"version": "1.3.9"
+	},
+	"git-plus": {
+		"version": "8.7.1"
 	},
 	"github": {
 		"version": "0.34.2"
@@ -102,7 +105,10 @@
 		"version": "0.50.1"
 	},
 	"Hydrogen": {
-		"version": "2.14.4"
+		"version": "2.14.6"
+	},
+	"ide-python": {
+		"version": "1.7.1"
 	},
 	"image-view": {
 		"version": "0.64.0"
@@ -171,13 +177,13 @@
 		"version": "0.38.1"
 	},
 	"language-php": {
-		"version": "0.44.5"
+		"version": "0.44.7"
 	},
 	"language-property-list": {
 		"version": "0.9.1"
 	},
 	"language-python": {
-		"version": "0.53.4"
+		"version": "0.53.5"
 	},
 	"language-ruby": {
 		"version": "0.72.23"
@@ -211,6 +217,9 @@
 	},
 	"language-typescript": {
 		"version": "0.6.3"
+	},
+	"language-verilog": {
+		"version": "0.4.0"
 	},
 	"language-xml": {
 		"version": "0.35.3"
@@ -267,13 +276,13 @@
 		"version": "1.3.0"
 	},
 	"pigments": {
-		"version": "0.40.2"
+		"version": "0.40.6"
 	},
-	"remember-folds": {
-		"version": "0.3.0"
+	"python-black": {
+		"version": "0.7.0"
 	},
 	"settings-view": {
-		"version": "0.261.4"
+		"version": "0.261.5"
 	},
 	"snippets": {
 		"version": "1.5.1"
@@ -299,10 +308,10 @@
 		"version": "0.118.4"
 	},
 	"sync-settings": {
-		"version": "5.0.3"
+		"version": "5.1.0"
 	},
 	"sync-settings-folder-location": {
-		"version": "1.0.12"
+		"version": "1.0.16"
 	},
 	"tabs": {
 		"version": "0.110.0"

@@ -13,12 +13,41 @@
 		"exception-reporting": {
 			"userId": "55a6be76-5f75-45c2-8887-579b7cb94260"
 		},
+		"git-diff": {},
+		"git-plus": {
+			"diffs": {},
+			"general": {
+				"splitPane": "Right"
+			}
+		},
+		"ide-python": {
+			"pylsPlugins": {
+				"flake8": {},
+				"pycodestyle": {
+					"ignore": [
+						"E121",
+						"E123",
+						"E126",
+						"E226",
+						"E24",
+						"E704",
+						"W503",
+						"E501",
+						"E402"
+					]
+				}
+			},
+			"python": "python3"
+		},
 		"nord-atom-ui": {
 			"darkerFormFocusEffect": true,
 			"tabSizing": false
 		},
+		"python-black": {
+			"fmtOnSave": false
+		},
 		"sync-settings": {
-			"checkForUpdatedBackup": false,
+			"autoCheckForUpdatedBackup": "no",
 			"hiddenSettings": {},
 			"installLatestVersion": true,
 			"useOtherLocation": true
@@ -28,6 +57,11 @@
 		},
 		"welcome": {
 			"showOnStartup": false
+		}
+	},
+	".bibtex.text": {
+		"editor": {
+			"tabType": "auto"
 		}
 	}
 }
