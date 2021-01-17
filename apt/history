@@ -74,6 +74,9 @@
 : 1608482971:0;sudo apt install python3-venv
 : 1609873380:0;sudo apt install xcalib
 : 1609873570:0;sudo apt install xcalib
+: 1610127165:0;sudo apt install inkscape
+: 1610899169:0;sudo apt install gstreamer1.0-libav
+: 1610900025:0;sudo apt install gstreamer1.0
 : 1599408427:0;sudo apt-get install -y cuda
 : 1599412880:0;sudo apt-get install cuda
 : 1599416145:0;sudo apt-get install libatlas-base-dev
@@ -89,3 +92,9 @@
 : 1606845309:0;sudo apt-get install swig
 : 1606845531:0;sudo apt-get install build-essential swig
 : 1609868537:0;sudo apt-get install -f
+: 1610899194:0;sudo apt-get install libssl-dev libavahi-compat-libdnssd-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-libav
+: 1610899918:0;sudo apt-get install gstreamer1.0-vaapi 
+: 1610900148:0;sudo apt-get install gstreamer1.0-plugins-bad
+: 1610900850:0;sudo apt-get install libavahi-compat-libdnssd-dev
+: 1610900858:0;sudo apt-get install libplist-dev
+: 1610900866:0;sudo apt-get install libssl-dev
