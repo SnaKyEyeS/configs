@@ -70,13 +70,55 @@
 : 1606817672:0;sudo apt install linux-tools-generic
 : 1606817718:0;sudo apt install linux-tools-5.4.0-53-generic
 : 1608111292:0;sudo apt install atom
-: 1608476976:0;sudo apt install inkscape
 : 1608482971:0;sudo apt install python3-venv
-: 1609873380:0;sudo apt install xcalib
 : 1609873570:0;sudo apt install xcalib
 : 1610127165:0;sudo apt install inkscape
 : 1610899169:0;sudo apt install gstreamer1.0-libav
 : 1610900025:0;sudo apt install gstreamer1.0
+: 1611052373:0;apt install deluge
+: 1611052378:0;sudo apt install deluge
+: 1611062783:0;sudo apt update && sudo apt install telegram
+: 1611075539:0;sudo apt install vlc
+: 1612095091:0;sudo apt update && sudo apt install signal-desktop
+: 1612439643:0;sudo apt install gimp
+: 1612512918:0;sudo apt install thonny
+: 1613899974:0;sudo apt install imagemagick
+: 1613907057:0;sudo apt install git-fame
+: 1614029043:0;sudo apt install linux-tools-5.8.0-34-generic
+: 1614076741:0;sudo apt install pyton3-tk
+: 1614076748:0;sudo apt install python3-tk
+: 1614264096:0;sudo apt install nvidia-cuda-toolkit
+: 1614265131:0;sudo apt install nvidia-kernel-common-460
+: 1614265335:0;sudo apt install cuda
+: 1614509326:0;sudo apt install python-matplotlib
+: 1614509679:0;sudo apt install python2.7-dev
+: 1614626129:0;sudo apt install linux-tools-5.8.0-44-generic
+: 1614874043:0;sudo apt install libglfw3
+: 1614874104:0;sudo apt install libglfw3-dev
+: 1614891823:0;sudo apt install mesa-utils
+: 1615974045:0;sudo apt install telegram
+: 1615996616:0;sudo apt install libncurses5
+: 1615997047:0;sudo apt install libncurses5-dev
+: 1615997072:0;sudo apt install libncursesw5-dev
+: 1615997148:0;sudo apt install -y libtinfo5
+: 1616687951:0;sudo apt install ./zoom_amd64.deb
+: 1617095883:0;sudo apt install libtbb-dev
+: 1617096472:0;sudo apt install intel-basekit
+: 1617460945:0;sudo apt install paraview
+: 1617974058:0;sudo apt install 
+: 1617974065:0;sudo apt install linux-tools-5.8.0-48-generic
+: 1619456789:0;sudo apt install pdftk
+: 1622038764:0;sudo apt install sl 
+: 1622038850:0;sudo apt install cmatrix
+: 1622039363:0;sudo apt install tree
+: 1622039565:0;sudo apt install love
+: 1624390474:0;sudo apt install pympress
+: 1629445841:0;sudo apt install telegram-desktop
+: 1629446061:0;sudo apt install telegram-desktop
+: 1630856836:0;sudo apt install lutris
+: 1630864578:0;sudo apt install piper
+: 1630866240:0;sudo apt install ratbagd
+: 1630873402:0;sudo apt install sqlite3
 : 1599408427:0;sudo apt-get install -y cuda
 : 1599412880:0;sudo apt-get install cuda
 : 1599416145:0;sudo apt-get install libatlas-base-dev
@@ -98,3 +140,33 @@
 : 1610900850:0;sudo apt-get install libavahi-compat-libdnssd-dev
 : 1610900858:0;sudo apt-get install libplist-dev
 : 1610900866:0;sudo apt-get install libssl-dev
+: 1614509924:0;sudo apt-get install python-matplotlib python-numpy python2.7-dev
+: 1614511757:0;sudo apt-get install -y fftw-dev
+: 1614953879:0;sudo apt-get install libglew-dev
+: 1614974438:0;sudo apt-get install cmake pkg-config libicu-dev zlib1g-dev libcurl4-openssl-dev libssl-dev ruby-dev
+: 1615204844:0;sudo apt-get install intel-mkl-full
+: 1615838566:0;sudo apt-get install chrome-stable
+: 1615997689:0;sudo apt-get install ia32-libs
+: 1615997698:0;sudo apt-get install lib32z1
+: 1615997707:0;sudo apt-get install libncurses5:i386
+: 1615997715:0;sudo apt-get install libncurses5
+: 1617092234:0;sudo apt-get install libvtk5-dev 
+: 1617092245:0;sudo apt-get install libvtk7-dev 
+: 1617094439:0;sudo apt-get install python-vtk
+: 1617094453:0;sudo apt-get install libvtk7-dev python-vtk
+: 1617094800:0;sudo apt-get install python3-vtk7
+: 1617094855:0;sudo apt-get install libvtk7-dev
+: 1617197767:0;sudo apt-get install freeglut3-dev
+: 1617197847:0;sudo apt-get install libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev
+: 1617973447:0;sudo apt-get install linux-tools-generic
+: 1619450787:0;sudo apt-get install libfftw3-dev
+: 1622212062:0;sudo apt-get install audio-recorder
+: 1622212411:0;sudo  apt-get install  sox
+: 1624390145:0;sudo apt-get install poppler-utils
+: 1624390214:0;sudo apt-get install mate
+: 1624390403:0;apt-get install pympress libgtk-3-0 libpoppler-glib8 libcairo2 python3-gi python3-gi-cairo gobject-introspection libgirepository-1.0-1 gir1.2-gtk-3.0 gir1.2-poppler-0.18\
+: 1624390407:0;sudo apt-get install pympress libgtk-3-0 libpoppler-glib8 libcairo2 python3-gi python3-gi-cairo gobject-introspection libgirepository-1.0-1 gir1.2-gtk-3.0 gir1.2-poppler-0.18\
+: 1624390495:0;sudo apt-get install pympress libgtk-3-0 libpoppler-glib8 libcairo2 python3-gi python3-gi-cairo gobject-introspection libgirepository-1.0-1 gir1.2-gtk-3.0 gir1.2-poppler-0.18\
+: 1630858866:0;sudo apt-get install --install-recommends winehq-staging\
+: 1630858953:0;sudo apt-get install libgnutls30:i386 libldap-2.4-2:i386 libgpg-error0:i386 libxml2:i386 libasound2-plugins:i386 \\
+: 1631529029:0;sudo apt-get install -y petsc-dev

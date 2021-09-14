@@ -34,9 +34,13 @@ font-1 = MaterialIcons:size=8;0
 font-2 = Termsynu:size=8:antialias=false;-2
 font-3 = FontAwesome:size=8;0
 
-modules-left = i3
+modules-left = i3 title
 modules-center = memory cpu
 modules-right = pulseaudio backlight wireless-network wired-network battery date powermenu
+
+#[module/title]
+#type = internal/xwindow
+#label = %title:0:30:...%
 
 [module/backlight]
 type = internal/backlight

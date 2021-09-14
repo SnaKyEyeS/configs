@@ -113,6 +113,8 @@ WINDOW_ICONS = {
     'Popcorn-Time': fa.icons['film'],
     'MATLAB R2018b': fa.icons['calculator'],
     'Caprine': fa.icons['comments'],
+    'TelegramDesktop': fa.icons['comments'], 
+    'vlc': fa.icons['film'],
 }
 
 # This icon is used for any application not in the list above
