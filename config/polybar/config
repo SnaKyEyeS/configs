@@ -233,7 +233,7 @@ label-close = 
 
 menu-0-0 = "Lock "
 ;menu-0-0-foreground = ${color.info}
-menu-0-0-exec = $HOME/.config/i3/scripts/lock.sh
+menu-0-0-exec = betterlockscreen -l
 
 menu-0-1 = "Logout  "
 menu-0-1-foreground = ${color.info}

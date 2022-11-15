@@ -1,76 +1,3 @@
-: 1599407893:0;sudo apt install -y cuda
-: 1599416180:0;sudo apt install doxygen-lib
-: 1599416188:0;sudo apt install doxygen
-: 1599422746:0;sudo apt install xclip
-: 1599428738:0;sudo apt install i3-gaps
-: 1599428906:0;sudo apt install ranger
-: 1599465349:0;sudo apt install gnome-shell-extensions
-: 1599469463:0;sudo apt install polybar
-: 1599472898:0;sudo apt install net-tools
-: 1599474219:0;sudo apt install feh
-: 1599475891:0;sudo apt install unifont
-: 1599476081:0;sudo apt install fonts-font-awesome
-: 1599476620:0;sudo apt install xfonts-base
-: 1599477318:0;sudo apt install fonts-material-design-icons-iconfont
-: 1599482401:0;sudo apt install light
-: 1599482512:0;sudo apt install xbacklight
-: 1599485911:0;sudo apt install rofi
-: 1599487154:0;sudo apt install neovim
-: 1599487175:0;sudo apt install python3-neovim
-: 1599489473:0;sudo apt install compton
-: 1599493746:0;sudo apt install redis-server
-: 1599493959:0;sudo apt install nodejs
-: 1599493972:0;sudo apt install npm
-: 1599494655:0;sudo apt install w3m-img
-: 1599498373:0;sudo apt install firefox
-: 1599512102:0;sudo apt install gtk-chtheme
-: 1599512372:0;sudo apt install lxappearance
-: 1599560184:0;sudo apt install xorg-xprop
-: 1599560249:0;sudo apt install pip
-: 1599560264:0;sudo apt install python3-pip
-: 1599560573:0;sudo apt install xorg
-: 1599560581:0;sudo apt install openbox
-: 1599568103:0;sudo apt install teams 
-: 1599568506:0;sudo apt install grub-customizer
-: 1599569291:0;sudo apt install catimg
-: 1599653475:0;sudo apt install xf86-input-synaptics
-: 1599656678:0;sudo apt install libavcodec-extra
-: 1599657747:0;sudo apt install mariannmt
-: 1599732708:0;sudo apt install wmctrl
-: 1599854743:0;sudo apt install wine64
-: 1599900288:0;sudo apt install screenfetch
-: 1599903090:0;sudo apt install tmux
-: 1599911144:0;sudo apt install peek
-: 1600374111:0;sudo apt install libav-tools
-: 1600374157:0;sudo apt install ubuntu-restricted-extras
-: 1600374234:0;sudo apt install libavcodec58
-: 1600374246:0;sudo apt install ffmpeg
-: 1600510848:0;sudo apt install wine32
-: 1600719334:0;sudo apt install zsh
-: 1601028071:0;sudo apt install font-manager
-: 1601028281:0;sudo apt install fonts-noto-cjk
-: 1601028285:0;sudo apt install fonts-noto
-: 1601028306:0;sudo apt install fonts-noto-cjk-extra
-: 1601110647:0;sudo apt install latex-full
-: 1601110721:0;sudo apt install texlive-full
-: 1601201514:0;sudo apt install libpq-dev
-: 1601204199:0;sudo apt install python3 sphinx
-: 1601204206:0;sudo apt install python3-sphinx
-: 1601888144:0;sudo apt install libxrandr
-: 1601888159:0;sudo apt install xorg-dev libglu1-mesa-dev
-: 1601895951:0;sudo apt install haskell-cipher-blowfish
-: 1601895965:0;sudo apt install libcrypt-blowfish-perl
-: 1602108195:0;sudo apt install openssh-server
-: 1602109935:0;sudo apt install xz-utils
-: 1602319128:0;sudo apt install postgresql
-: 1603873479:0;apt install apt-transport-https
-: 1603873483:3;sudo apt install apt-transport-https
-: 1603873555:8;sudo apt install openvpn3
-: 1606810108:0;sudo apt install valgrind
-: 1606817672:0;sudo apt install linux-tools-generic
-: 1606817718:0;sudo apt install linux-tools-5.4.0-53-generic
-: 1608111292:0;sudo apt install atom
-: 1608482971:0;sudo apt install python3-venv
 : 1609873570:0;sudo apt install xcalib
 : 1610127165:0;sudo apt install inkscape
 : 1610899169:0;sudo apt install gstreamer1.0-libav
@@ -82,7 +9,6 @@
 : 1612095091:0;sudo apt update && sudo apt install signal-desktop
 : 1612439643:0;sudo apt install gimp
 : 1612512918:0;sudo apt install thonny
-: 1613899974:0;sudo apt install imagemagick
 : 1613907057:0;sudo apt install git-fame
 : 1614029043:0;sudo apt install linux-tools-5.8.0-34-generic
 : 1614076741:0;sudo apt install pyton3-tk
@@ -104,7 +30,6 @@
 : 1616687951:0;sudo apt install ./zoom_amd64.deb
 : 1617095883:0;sudo apt install libtbb-dev
 : 1617096472:0;sudo apt install intel-basekit
-: 1617460945:0;sudo apt install paraview
 : 1617974058:0;sudo apt install 
 : 1617974065:0;sudo apt install linux-tools-5.8.0-48-generic
 : 1619456789:0;sudo apt install pdftk
@@ -113,26 +38,92 @@
 : 1622039363:0;sudo apt install tree
 : 1622039565:0;sudo apt install love
 : 1624390474:0;sudo apt install pympress
-: 1629445841:0;sudo apt install telegram-desktop
 : 1629446061:0;sudo apt install telegram-desktop
 : 1630856836:0;sudo apt install lutris
 : 1630864578:0;sudo apt install piper
 : 1630866240:0;sudo apt install ratbagd
 : 1630873402:0;sudo apt install sqlite3
-: 1599408427:0;sudo apt-get install -y cuda
-: 1599412880:0;sudo apt-get install cuda
-: 1599416145:0;sudo apt-get install libatlas-base-dev
-: 1599419924:0;sudo apt-get install intel-mkl-64bit-2020.0-088
-: 1599475476:0;sudo apt-get install x11-utils
-: 1599774558:0;sudo DEBIAN_PRIORITY=low apt-get install postfix
-: 1600075582:0;sudo apt-get install sshuttle
-: 1600373810:0;sudo apt-get install libavcodec58 libav-tools ffmpeg\
-: 1600897669:0;sudo apt-get install fonts-font-awesome
-: 1601817923:0;sudo apt-get install python3-tk
-: 1602340182:0;sudo apt-get install \\
-: 1602340251:0;sudo apt-get install docker-ce docker-ce-cli containerd.io\
-: 1606845309:0;sudo apt-get install swig
-: 1606845531:0;sudo apt-get install build-essential swig
+: 1631697099:0;sudo apt install libopenmpi-dev
+: 1633076182:0;sudo apt install libomp-dev
+: 1633076515:0;sudo apt install build-essential
+: 1633076545:0;sudo apt install gcc-11
+: 1633076560:0;sudo apt install gcc-10
+: 1633076652:0;sudo apt install g++-10
+: 1633076826:0;sudo apt install gcc-11 g++-11
+: 1633077009:0;sudo apt install gfortran-11
+: 1633079467:0;sudo apt install nvptx-tools
+: 1633099233:0;sudo apt install flex
+: 1634110911:0;sudo apt install cloc
+: 1634903441:0;sudo apt install smbclient
+: 1634903467:0;sudo apt install samba
+: 1635021420:0;sudo apt install linux-tool-generic linux-cloud-tools-generic
+: 1635021425:0;sudo apt install linux-tools-generic linux-cloud-tools-generic
+: 1635021558:0;sudo apt install linux-tools-5.11.0-38-generic
+: 1635021574:0;sudo apt install linux-cloud-tools-5.11.0-38-generic
+: 1636379925:0;sudo apt install polybar 
+: 1636380390:0;sudo apt install polybar
+: 1636383935:0;sudo apt install feh
+: 1636974169:0;sudo apt install htop
+: 1636977146:0;sudo apt install libpcap-dev libev-dev libnl-3-dev libnl-genl-3-dev libnl-route-3-dev\
+: 1636981762:0;sudo apt install autoconf gcc make pkg-config libpam0g-dev libcairo2-dev libfontconfig1-dev libxcb-composite0-dev libev-dev libx11-xcb-dev libxcb-xkb-dev libxcb-xinerama0-dev libxcb-randr0-dev libxcb-image0-dev libxcb-util-dev libxcb-xrm-dev libxcb-xtest0-dev libxkbcommon-dev libxkbcommon-x11-dev libjpeg-dev\
+: 1637148583:0;apt install
+: 1637148587:0;sudo apt install
+: 1637148612:0;grep "apt install"
+: 1637148638:0;grep "apt install" $HOME/.zsh_history
+: 1637247259:0;sudo apt install alien
+: 1637315856:0;sudo apt install paraview 
+: 1637315937:0;sudo apt install paraview-dev
+: 1637327758:0;sudo apt install ncurses-devel
+: 1637667254:0;sudo apt install graphviz
+: 1637767538:0;sudo apt install clang-format
+: 1641219666:0;sudo apt install libpcap-dev libev-dev libnl-3-dev libnl-genl-3-dev libnl-route-3-dev
+: 1641906488:0;sudo apt install h5ls
+: 1642589245:0;sudo apt install jabref
+: 1642589450:0;sudo apt install zotero
+: 1642621084:0;sudo apt install discord
+: 1642934529:0;sudo apt install python3.9
+: 1642934661:0;sudo apt install python3.9-venv
+: 1643728434:0;sudo apt install obsidian
+: 1643797302:0;sudo apt install clang
+: 1643881851:0;sudo apt install gnome-tweak-tool
+: 1643882266:0;sudo apt install xbindkeys xsel xdotool
+: 1644223473:0;sudo apt install docker-compose
+: 1644227789:0;sudo apt install vtk7
+: 1644227811:0;sudo apt install python3-vtk7
+: 1644492669:0;sudo apt install openssh-server
+: 1645006510:0;sudo apt install pipenv
+: 1646909278:0;sudo apt install nsight-systems
+: 1646909309:0;sudo apt install nsight-compute
+: 1646909333:0;sudo apt install nvidia-nsight
+: 1647333773:0;sudo apt install touchegg
+: 1647334425:0;sudo apt install wmctrl xdotool libinput-tools
+: 1648539089:0;sudo apt install llvm-14-dev
+: 1648539099:0;sudo apt install llvm-13-dev
+: 1648539252:0;sudo apt install llvm-12-dev
+: 1648562374:0;sudo apt install libelf-dev
+: 1648653025:0;sudo apt install linux-tools-5.13.0-37-generic
+: 1648734148:0;sudo apt install mencoder
+: 1649775748:0;sudo apt install neovim
+: 1650964545:0;sudo apt install clang-tidy
+: 1651132107:0;sudo apt install cppcheck
+: 1652100593:0;sudo apt install gnutls-bin
+: 1652175687:0;sudo apt install nvidia-dkms-470
+: 1652254955:0;sudo apt install locate
+: 1652727115:0;sudo apt install rename
+: 1655655773:0;sudo apt install imagemagick
+: 1659493034:0;sudo apt install protonvpn
+: 1659565618:0;sudo apt install linux-tools-generic
+: 1659565655:0;sudo apt install linux-cloud-tools-5.15.0-41-generic
+: 1659565681:0;sudo apt install linux-tools-5.15.0-41-generic
+: 1659568948:0;sudo apt install opera
+: 1659974731:0;sudo apt install paraview
+: 1661765961:0;sudo apt install tau 
+: 1662108634:0;sudo apt install nvtop
+: 1663674368:0;sudo apt install binutils-dev
+: 1663933056:0;sudo apt install libxml2:i386 libcanberra-gtk-module:i386 gtk2-engines-murrine:i386 libatk-adaptor:i386
+: 1665061559:0;sudo apt install git
+: 1666256949:0;sudo apt install openvpn3
+: 1666256993:0;sudo apt install openvpn
 : 1609868537:0;sudo apt-get install -f
 : 1610899194:0;sudo apt-get install libssl-dev libavahi-compat-libdnssd-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-libav
 : 1610899918:0;sudo apt-get install gstreamer1.0-vaapi 
@@ -165,8 +156,13 @@
 : 1624390145:0;sudo apt-get install poppler-utils
 : 1624390214:0;sudo apt-get install mate
 : 1624390403:0;apt-get install pympress libgtk-3-0 libpoppler-glib8 libcairo2 python3-gi python3-gi-cairo gobject-introspection libgirepository-1.0-1 gir1.2-gtk-3.0 gir1.2-poppler-0.18\
-: 1624390407:0;sudo apt-get install pympress libgtk-3-0 libpoppler-glib8 libcairo2 python3-gi python3-gi-cairo gobject-introspection libgirepository-1.0-1 gir1.2-gtk-3.0 gir1.2-poppler-0.18\
 : 1624390495:0;sudo apt-get install pympress libgtk-3-0 libpoppler-glib8 libcairo2 python3-gi python3-gi-cairo gobject-introspection libgirepository-1.0-1 gir1.2-gtk-3.0 gir1.2-poppler-0.18\
 : 1630858866:0;sudo apt-get install --install-recommends winehq-staging\
 : 1630858953:0;sudo apt-get install libgnutls30:i386 libldap-2.4-2:i386 libgpg-error0:i386 libxml2:i386 libasound2-plugins:i386 \\
 : 1631529029:0;sudo apt-get install -y petsc-dev
+: 1636380974:0;sudo apt-get install \\
+: 1636381247:0;sudo apt-get install python-xcb
+: 1643729043:0;apt-get install libgdk-pixbuf2.0-dev
+: 1643729050:0;sudo apt-get install libgdk-pixbuf2.0-dev
+: 1643729104:0;sudo apt-get install --reinstall gdk-pixbuf2.0-0
+: 1647505591:0;sudo apt-get install -y nvidia-docker2
